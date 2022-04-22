@@ -1,0 +1,9 @@
+<div>
+  <form (ngSubmit)="send()">
+    <label for="src">Source</label>
+    <input type="text"  id="src" name="src" [(ngModel)]="source"/>
+    <label for="msg">Message</label>
+    <input type="text"  id="msg" name="msg" [(ngModel)]="message"/>
+    <button>Send</button>
+  </form>
+</div>
